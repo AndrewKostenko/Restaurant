@@ -1,0 +1,14 @@
+.footer {
+	margin-top: 21px;
+	@media (min-width: 768px) {
+		margin-top: 100px;
+	}
+	// .footer_img
+	&_img {
+		width: 100%;
+		min-height: 566px;
+		@media (min-width: 768px) {
+			min-height: 732px;
+		}
+	}
+}
